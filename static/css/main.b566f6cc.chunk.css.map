@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,iBAII,mBACJ,CAEA,sCALC,iBAAkB,CACf,sBAQJ","file":"main.b566f6cc.chunk.css","sourcesContent":[".parallax-window \n{\n\tmin-height: 1000px;\n    background: transparent;\n    margin-bottom: 100px;\n}\n\n.parallax-window-top \n{\n\tmin-height: 1000px;\n    background: transparent;\n}"]}
