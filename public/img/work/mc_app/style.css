@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background: black;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container{
+    
+    width: 100%;
+    margin: auto;
+    padding: 1px;
+    animation: fadein 2s;
+    
+}
+
+#title{
+    width: 100%;
+    padding: 1px;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+}
+
+#title img{
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+
+#homeDiagram{
+   
+    display: none;
+    width: 80%;
+    margin: auto;
+    clear: both;
+}
+
+#homeDiagram img{
+    margin: auto;
+    display: block;
+    width: auto;
+    height: 80vh;
+}
+
+/*---sections--*/
+
+#sections{
+    display: block;
+    width: 60%;
+    margin: auto;
+    height: 50vh;
+}
+
+#sections ul{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#sections li{
+    width: 100%;
+    margin: -2px;
+    
+}
+
+#sections li img{
+    
+    width: 100%;
+}
+
+#top img{
+    
+    margin-bottom: -1px;
+}
+
+.back{
+    
+    width: 10%;
+    height: 80%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    animation: fadein 1s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.back img{
+    
+    width: 50%;
+    margin: auto;
+    opacity: 0.4;
+}
+
+.left{
+    
+    float: left;
+}
+
+.infoBox{
+    display: block;
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    right: 0;
+    float: right;
+}
+
+.infoBox img{
+    
+    width: 100%;
+}
+
+@keyframes fadein {
+    from { opacity: 0;}
+        to   { opacity: 1; }
+}
+
+
+
+
+
