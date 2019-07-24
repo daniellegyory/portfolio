@@ -33,7 +33,7 @@ export default class Work extends Component {
 							<h5>Objective</h5>
 							<p>Research a company to redefine and restate their core mission to realign the brand. Create a logo, stationary system, brand guide, and a corporate brochure.</p>
 							<h5>Project Overview</h5>
-							<p>Eleven years ago Soundcloud provided semi-professional artists with an online platform to take their music straight to listeners' ears. We have and always will put our main focus on the creators but as more platforms entered the market and competitors gained traction, the marginal returns on our newer services watered down our original mission. Today, Soundcloud  wants to return to that original mission and celebrate the very creators that make our platform so successful. This rebrand is intended to revamp our old customer base and provide all users with ad-free listening so that content can be delivered and discovered more easily. Additionally, with a new logo and color scheme we can redesign our old platform into a clean, intuitive, and functional interface.</p>
+							<p>A challenge with this rebrand was coming up with a new concept for the app UI. Soundcloud’s current one lacks organization and doesn’t embody one of the main reasons listeners and creators use the Soundcloud app; for music discovery. I came up with a new music player—keeping the iconic audio waves—and made the comments on songs more accessible for increased social media interaction. Additionally, the home page was redesigned so that users could discover more of what they like, find new artists on Soundcloud, and see what their friends are listening to. Another challenge of this project was coming up with a logo that truly represented the Soundcloud brand. Their old logo is good but it definitely has room for improvement. I decided to add a dark blue to their brand color palette to create a dark theme and a light theme. I kept the Soundcloud orange because it is a key identifier to their brand.</p>
 
 							<img className="img-responsive" src="img/work/sc_mockup.jpg" alt="" />
 							<img className="img-responsive" src="img/work/sc_stationary.jpg" alt="" />
@@ -50,7 +50,7 @@ export default class Work extends Component {
 							<img className="img-responsive" src="img/work/sc_brandguide2.jpg" alt="" />
 							<img className="img-responsive" src="img/work/sc_brandguide3.jpg" alt="" />
 							<img className="img-responsive" src="img/work/sc_brandguide4.jpg" alt="" />
-							<img className="img-responsive" src="img/work/sc_brandguide5.jpg" alt="" width="50%" height="50%"/>*/}
+							<img className="img-responsive" src="img/work/sc_brandguide5.jpg" alt="" width="50%" height="50%"/>
 						</div>
 	          		</div>
 
