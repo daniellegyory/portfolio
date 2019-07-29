@@ -14,7 +14,7 @@ class App extends Component {
     return (
 		<div className="App">
 			<Preloader/>
-			<div className="parallax-window" data-z-index="0" data-parallax="scroll" data-image-src="img/background.jpg">
+			<div className="parallax-window" data-z-index="0" data-ios-fix="false" data-parallax="scroll" data-image-src="img/background.jpg">
 				<div className="content-area">
 					<div className="content-area-inner">
 						<Intro/>
@@ -37,7 +37,7 @@ class App extends Component {
 					</div>
 				</div>
 			</div>
-			<div className="parallax-window" data-z-index="0" data-parallax="scroll" data-image-src="img/background3.jpg">
+			<div className="parallax-window-last" data-z-index="0" data-parallax="scroll" data-image-src="img/background3.jpg">
 				<div className="content-area">
 					<div className="content-area-inner">
 						<FloatingText2/>

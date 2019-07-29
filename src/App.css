@@ -1,12 +1,25 @@
 .parallax-window 
 {
-	min-height: 1000px;
+	min-height: 700px;
     background: transparent;
     margin-bottom: 100px;
 }
 
 .parallax-window-top 
 {
-	min-height: 1000px;
+	min-height: 700px;
     background: transparent;
+}
+
+.parallax-window-last
+{
+	min-height: 700px;
+    background: transparent;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+
+.parallax-window-top, .parallax-window-last {display: none;}
+
 }
